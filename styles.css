@@ -1,0 +1,285 @@
+body{
+    font-family:Helvetica, sans-serif, Arial;
+    max-width: 1220px;
+    margin:auto;
+}
+.vidyalogo{
+    padding:5px 120px 5px 120px;
+    float:left;
+}
+.list1,.list2{
+    list-style-type: none;
+    padding-left:480px;
+}
+.list1 li,.list2 li{
+    display:inline-block;
+}
+.list1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding:4px;
+}
+.list1 li a:hover{
+    background-color: rgb(238, 78, 78);
+    color:white;
+    margin-right: 5px;
+}
+.list1 span{
+    color:rgb(242, 129, 129);
+    font-size:22px;
+}
+.list2{
+    margin: 0;
+    padding-left: 640px;
+}
+.ph{
+    text-decoration: none;
+    color: black;
+}
+.list2 .fa {
+    padding: 8px;
+    font-size: 12px;
+    width: 12px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-youtube {
+    background: #f11b1b;
+    color: white;
+  }
+  .fa-instagram {
+    background: linear-gradient(blue, purple,red,yellow);
+    color: white;
+  }
+.clr{
+  color:red;
+  font-size: 18px;
+}
+.info{
+  margin:0;
+  float: left;
+  width:398px;
+  font-size: 12px;
+  padding:10px;
+  font-weight: bold;
+  animation: blink 3s linear infinite;
+}
+@keyframes blink {
+  50% {
+      opacity: 0;
+  }
+  100%{
+    opacity:0.8;
+  }
+}
+.nirf{
+  width:60px;
+}
+.naac{
+  width:85px;
+}
+.nba,.teqp,.ugc,.ariia{
+  width:40px;
+}
+.header2{
+  float:left;
+  margin:0;
+  width:100%;
+}
+.innerhead{
+  list-style-type: none;
+  margin: 0;
+  width:100%;
+  margin:auto;
+}
+.nav{
+  float:left;
+  list-style: none;
+  background-color: #333;
+}
+.nav a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 8px 40px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.nav a:hover{
+  background-color: #f47979;
+}
+.innerhead a:hover{
+  background-color: #f47979;
+}
+#home,#home:hover{
+  background-color: #f11b1b;
+}
+.innernav{
+  list-style-type: none;
+  display:none;
+  height: auto;
+  width:fit-content;
+}
+.nav:hover .innernav{
+  display:block;
+  width:fit-content;
+}
+.fixtext{
+  float:left;
+  padding-left: 16vw;
+}
+marquee{
+  padding:15px;
+  padding-bottom: 0px;
+  color:red;
+}
+.msgs img{
+  width:20vw;
+  border-radius: 10px;
+}
+.msgs{
+  margin-top:5px;
+  margin-left:5vw;
+  background-color: aliceblue;
+  padding:1vw;
+  width:22vw;
+  border:1px solid red;
+}
+.notific{
+  margin-top:5px;
+  margin-left:1vw;
+  background-color: aliceblue;
+  width:50vw;
+  border:1px solid red;
+  border-radius: 5px;
+}
+.hbak{
+  margin:0px;
+  padding:15px;
+  background-color: red;
+  color:white;
+}
+.tot{
+  display: flex;
+}
+.noti li a{
+  text-decoration: none;
+  line-height: 250%;
+}
+.news,.achieve{
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  border: 1px solid red;
+  border-radius: 5px;
+  
+}
+.newss{
+  display: flex;
+}
+.news1 img{
+  width:300px;
+  height:220px;
+}
+.news1{
+  width:320px;
+  padding:10px;
+  border:1px solid grey;
+}
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-left:2px
+}
+
+.flink{
+line-height: 200%;
+padding: 10px;
+color:white;
+text-decoration: none;
+padding: 2px;
+}
+.footer2{
+padding: 30px;
+text-align: center;
+width:75vw;
+height:600px;
+font-size: 14px;
+}
+.footer3{
+  padding:30px;
+  text-align: center;
+  width:25vw;
+  height:600px;
+  line-height: 180%;
+  
+}
+.mainfoot{
+  justify-content: center;
+  display:flex;
+}
+.ffoo{
+  width:250px;
+}
+.footer2 div{
+  display: inline-block;
+}
+.lks .fa {
+  padding: 8px;
+  font-size: 12px;
+  width: 12px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.images{
+  width:1200px;
+  height:650px;
+  background-repeat: no-repeat;
+  position: relative;
+  animation: mymove 15s infinite;
+  background-size: 1220px 650px;
+}
+@keyframes mymove{
+  0%   {opacity: 0.5;}
+  15%  {opacity: 1;  background-image:url(rvce.jpg);}
+  30%  {opacity: 0.5; }
+  45%  {opacity: 1; background-image:url(sree-vidyanikethan-engineering-college-svec-tirupati.avif);}
+  60% {opacity: 0.5;}
+  75%{opacity: 1; background-image:url(rvce.jpg);}
+  90%{opacity:0.5;}
+  100%{opacity: 1; background-image:url(sree-vidyanikethan-engineering-college-svec-tirupati.avif)}
+}
+.new{
+  text-align: center;
+  background-color: rgb(67, 67, 67);
+  color : white;
+  font-weight: bold;
+  padding:10px;
+  margin: 0px;
+}
+.form{
+  padding-left: 150px;
+}
+#sub:hover{
+  color:black;
+  background-color: antiquewhite;
+}
